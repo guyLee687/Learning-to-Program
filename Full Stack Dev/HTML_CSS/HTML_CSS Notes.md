@@ -103,6 +103,7 @@ Tables can also be broken up by a
 - *thead*
 - *tbody*
 - *tfoot* 
+
 for styling with CSS. 
 
 ## 4.0 Forms 
