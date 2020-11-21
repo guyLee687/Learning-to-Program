@@ -11,6 +11,8 @@ WB WebDevelopment Series: [Youtube](https://www.youtube.com/watch?v=EceJQ05KTf4&
 ### Python: 
 Interactive Tutorial by Akuli: [link](https://github.com/Akuli/python-tutorial)
 
+Free Interactive Tutorial from learnPython.org[link](https://www.learnpython.org/)
+
 ### JavaScript: 
 Docker-like Tutorial: [link](https://javascript.info/)
 
