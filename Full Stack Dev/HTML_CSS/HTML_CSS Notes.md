@@ -130,7 +130,6 @@ HTML5 Input Types:
 - url 
 - search - *placeholder* attribute for opaque lettering in search bar.
 
-
 #### Select (<Select>)
 A selection box.
 Attributes: *name*, *size* - size of select box, *multiple* - specifies whether multiple options can be choosen from select box. 
