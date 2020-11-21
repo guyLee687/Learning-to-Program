@@ -16,6 +16,8 @@ An instance of such is the following:
     </p>
 ``` 
 
+* **Note**: Tags can have *attributes* within them that further specify the kind of information being markedup with the tag. **Attributes** have a *name* that specifies the property, and the *value*- that the state of the attribute. (Ex. `<p lang="en-us">`)
+
 ### 1.1 Format 
 
 An HTML document usually follow the take on the form as follows: 
@@ -48,7 +50,68 @@ Examples of block elements involve, headings, paragraphs, and other structural b
 ### 2.2 Inline elements 
 
 Examples of Inline elements involve semantic based markup usually that involve things that emphasize the importances or purpose of words: 
-- `emp `
+- `b, i, sup, sub` - bold text, italicized text, superscript, subscript. 
+- `<br />, <hr />` - line break and horizontal line 
+- `<ins>, <del>, <s>(being phased out)` - Insert, delete, strikethrough
+- `<cite>, <address>, <dfn>` - Cite, address, define. 
+- `<strong>, <em>` - Same as bold and italicized but they allow for some software to place more meaning to them (ex. web reader for visual-impaire). 
+- `<abbr>` - Denotes an abbrivation. Has *title* attribute which expands on the abbreviation. When hovered upon, it will show what it means. 
+
+
+## 3.0 Data Presentation
+
+### 3.1 List 
+#### Unordered List 
+Unordered lists are presented as the following: 
+```HTML
+    <ul>
+        <li></li>
+        ...
+    </ul>
+```
+
+#### Ordered List 
+Ordered lists are presented as the same as Unordered list but by replacing `<ul>` with `<ol>`
+
+#### Definition List 
+Definition lists are presentedd as the following: 
+```HTML
+    <dl>
+        <dt></dt> <!--Definition Term-->
+        <dd></dd> <!--Definition Defined-->
+        ...
+    </dl>
+```
+Both `dt` and `dd` can be used more than once and does not need to be in a one-to-one pair. 
+
+### 3.2 Tables
+Tables are enclosed with the following tags `<table> </table>`. It has several different attributes and variations of such. 
+
+> Attributes 
+- spacing 
+- borders
+- background color 
+
+Most attributes are being discontinued and rely on *CSS* in order to style tables. 
+
+To specify what is in a table you use the following tags. 
+- `<th scope = "">` - table header where scope refers to what the scope of the header is for.
+- `<tr>` - table row.
+- `<td col/rowspan = "">` - table data where *colspan* or *rowspan* refers to how much the data extends further than an individual cell. 
+
+Tables can also be broken up by a 
+- *thead*
+- *tbody*
+- *tfoot*
+for styling with CSS. 
+
+## 4.0 Forms 
+
+## 5.0 Links
+
+## 6.0 Media Input 
+### 6.1 Images
+Images are placed with 
 
 ## Miscellenous 
 
