@@ -107,15 +107,90 @@ Tables can also be broken up by a
 for styling with CSS. 
 
 ## 4.0 Forms 
+The form (`<form id="" action="" method="">`) element is responsible for getting input from the user and sending that data to the path expressed by the *action* attribute. All form elements can also have a *id* attribute in order to distinguish itself from other elements and is often used in scripts. The *method* attribute is responsible for specifying the type of HTTP response the the form is sent to the *action* path (**GET*** for small data, and **POST** for larger data like files). 
 
+Forms also have different form controls which specify the type of data and constraints to user input. 
+
+### 4.1 Form controls
+#### Input (<Input>)
+Types: 
+- text: Single line text with *name*, *size*, and *maxlength* attributes. 
+- password: Same as text but hides the password. 
+- textarea: Multiline text with *col* and *rol* attributes. 
+- radio: Radio buttons with *name*, *value*, *checked* as attributes. 
+- checkbox: Same as radio type except you can select and deselect multiple
+- file: Allows user to upload file. *name* attribute. * **method** attribute must be set to **POST**
+- submit: Submit button. *name* attribute - names the input type. *Value* - Defines the text on the submit button. 
+- image: You can replace the submit button with an image. The attributes as the same for *submit* but replaces *value* with the attributes of image. 
+- hidden: A hidden form control that the user has no control over. It has a *name* and *value* attribute that can be preset. A use could be to denote the page in which the user submitted the form if the form is shared across the domain. 
+
+HTML5 Input Types: 
+- date 
+- email
+- url 
+- search - *placeholder* attribute for opaque lettering in search bar.
+
+
+#### Select (<Select>)
+A selection box.
+Attributes: *name*, *size* - size of select box, *multiple* - specifies whether multiple options can be choosen from select box. 
+Options from the select box are denoted with the `<option>` tag which has the following attributes. 
+- *value*, *selected* - The option that is preselected with the page is loaded.  
+
+#### Button (<Button>)
+Takes the place of input type *submit* but can combine images and text inside of it. 
+
+#### Label (<Label>)
+Labels group together form controls with text in order to expand the clickable area for visually impaired users, and also helps with webreaders when parsing form controls. 
+Attributes: *for* - Can take the form control *id* and encapsulate the form control with the label text. 
+
+### Fieldset(<fieldset>)
+Fieldset is simply used to group together multiple form controls. The header of the fieldset can be denoted with the tag `<legend>`.
+
+* **Note**: Form validation can be added to textboxs by adding the *required* attribute. 
 ## 5.0 Links
+Links are referenced through using the `<a>` tag. They have the following attributes. 
+- *href* - where you place the link. It can be a *relative* or an *absolute* path. 
+- *target* - If a new page is openned with the link (using macro "_blank")
+
+* **Note**: You can add a `mailto:` term in front a link for the value of *href* in order to specify to the user's browser to open the user's email software. 
+* **Note2**: You can add an *id* to headers and have links reference them on the same page by adding a `#` before the id in the link path. 
 
 ## 6.0 Media Input 
 ### 6.1 Images
-Images are placed with 
+Images are placed with `<img>` tag. It has the following attributes. 
+- *src* - the location of the image in the webpage folder. 
+- *alt* - Alternative text to display if the image can't be seen. Quotations can be ommitted if rules are not strict to denote insignificant images.
+- *title* - Additional information about image. Browsers typically show this when users hover over the image. 
+- *height*
+- *width*
+- *align* - Being phased out. 
+
+### 6.2 Videos
+Videos need a script to embed a video player and the media needs to be converted to a format applicable to the browser type. 
+Uses `<video>` tag. Multiple videos can be referred using `<source>` tag. Audio is similar to video by using `<audio>` tag. 
+
+A script that can be used to embed video players is *SWFObject* which can be found by Google's publicly available APIs. 
 
 ## Miscellenous 
 
 ### Commenting 
 -  Commenting in HTML is done through the use of a bracket enclosed with an exclamation market a two dots. 
     `<!--This is a comment-->`
+
+### Meta 
+Descriptions of the webpage (metainformation)
+Follows the form of: 
+```HTML
+    <meta name="" OR http-equiv=""
+          content="">
+```
+#### Name types:  
+- Description: 155 characters max description used by search engine. 
+- Keywords: Significant words describing your website. 
+- robots: whether or how the search engine includes your webpages. 
+
+#### http-equiv types: 
+- author: The author of the webpage. 
+- pragma: no-cache or caching
+- expires: when cache expires
