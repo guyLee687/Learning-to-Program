@@ -112,7 +112,7 @@ The form (`<form id="" action="" method="">`) element is responsible for getting
 Forms also have different form controls which specify the type of data and constraints to user input. 
 
 ### 4.1 Form controls
-#### Input (<Input>)
+#### Input 
 Types: 
 - text: Single line text with *name*, *size*, and *maxlength* attributes. 
 - password: Same as text but hides the password. 
@@ -130,20 +130,20 @@ HTML5 Input Types:
 - url 
 - search - *placeholder* attribute for opaque lettering in search bar.
 
-#### Select (<Select>)
+#### Select
 A selection box.
 Attributes: *name*, *size* - size of select box, *multiple* - specifies whether multiple options can be choosen from select box. 
 Options from the select box are denoted with the `<option>` tag which has the following attributes. 
 - *value*, *selected* - The option that is preselected with the page is loaded.  
 
-#### Button (<Button>)
+#### Button
 Takes the place of input type *submit* but can combine images and text inside of it. 
 
-#### Label (<Label>)
+#### Label 
 Labels group together form controls with text in order to expand the clickable area for visually impaired users, and also helps with webreaders when parsing form controls. 
 Attributes: *for* - Can take the form control *id* and encapsulate the form control with the label text. 
 
-### Fieldset(<fieldset>)
+### Fieldset
 Fieldset is simply used to group together multiple form controls. The header of the fieldset can be denoted with the tag `<legend>`.
 
 * **Note**: Form validation can be added to textboxs by adding the *required* attribute. 
