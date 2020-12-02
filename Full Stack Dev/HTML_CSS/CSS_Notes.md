@@ -198,7 +198,7 @@ Properties of Boxes:
 
 - margin: Controls the gap between boxes. Can control individual styles  *(ex. margin-left)*.  Also a shortcut method would be to assign four values to margin *(ex. margin: top, right, bottom, left)*. 
 
--display: Turns inline elements to block elements, and vice-versa. Values are inline, block, inline-block, none. 
+-display: Turns inline elements to block elements, and vice-versa. Values are *inline, block, inline-block, none*. 
 
 -visibility: Allows you to hide boxes from user. Values hidden, visible. 
 
@@ -292,31 +292,47 @@ Tips: color, background-color, width, border, border-radius, padding.
 
 ### 6.1 Positioning elements
 
-- `position:` - 
+- `position:` - Property that determines the position of an HTML element relative to a certain object on the webpage.
+	- normal(*static*)- The default positionin of HTML elements where each block element flows from top to bottom and is separated by white space. 
 
-	- normal - 
+	- relative - Indicates the position of an HTML element relative to where it was suppose to be if it was normal. The offset is defined by the properties(*top* or *bottom*, *left* or *right*). 
 
-	- relative - 
+	- absolute - Taken out of normal flow and does not affect the positioning of the rest of the elements. It appears in relation to the containing element.  
+	The offsets are defined the same as relative.
 
-	- absolute - 
-
-	- fixed - 
+	- fixed - Same as absolute but in relation to the webpage. 
 
 - `z-index` - 
 
-- `float` - 
+- `float` - Takes elements in normal flow and stacks them on the left or right of a page. 
 
-- `clear` -
+- `clear` - Tells the web page that not elements should be placed on the left and right-hand side of a box. 
+Values are - *left, right, both, none*. 
 
-*Tips: You can use width, margin, float to create multiple columns of content. 
+\*Tips: You can use width, margin, float to create multiple columns of content. 
+
+\*Pages are often designed around having a width of *960-1000 pixels* and the top page being a height of *570-600 pixels*.
 
 ### 6.2 Fixed Vs Liquid Layout 
+A fixed layout uses px as a form of measurement. The size of the content are static and are often used to design sites with the main audience being PC users. 
+
+Meanwhile, liquid layout uses % and *em* as a form of measurement in order to scale content to variety of devices with different screen resolutions. 
 
 ### 6.3 960.GS framework 
-
+Provides (framework for HTML sites)[https://960.gs/]. 
  
 
 ## 7.0 Images 
+
+- background: Shortcut for the following properties. Can miss any of the values
+
+	- background-color: Covered 
+	- background-image: Takes in url. 
+	- background-repeat: Values are *repeat* horizontally and vertically), *repeat-x, repeat-y, no-repeat*. 
+	- background-attachment: *fixed*(background image stays in place), *scroll*(moves as you scroll). 
+	- background-position: 9 different coordinates as horizontal-vertical section *(ex. center-top)* Can also take coordinates. 
+
+Gradients can also be added to images. 
 
 ## Miscellaneous
 
