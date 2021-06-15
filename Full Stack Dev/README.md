@@ -19,3 +19,10 @@ Free Interactive Tutorial from learnPython.org[link](https://www.learnpython.org
 Docker-like Tutorial: [link](https://javascript.info/)
 
 Getify's *You-Dont-Know-JS* [link](https://github.com/getify/You-Dont-Know-JSS)
+
+### Databases: 
+
+#### MongoDB:
+Documentation: [link](https://docs.mongodb.com/manual/mongo/)
+
+Exercises W3Resources: [link](https://www.w3resource.com/mongodb-exercises/)
