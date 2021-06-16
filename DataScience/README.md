@@ -7,5 +7,7 @@
 ## Learning Python: 
  - Python Documentation [link](https://docs.python.org/3/)
 
+# Data Analysis: 
+- Python for Data Analysis TextBook [link](https://bedford-computing.co.uk/learning/wp-content/uploads/2015/10/Python-for-Data-Analysis.pdf)
 
  
