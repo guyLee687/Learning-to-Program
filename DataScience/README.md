@@ -11,3 +11,6 @@
 - Python for Data Analysis TextBook [link](https://bedford-computing.co.uk/learning/wp-content/uploads/2015/10/Python-for-Data-Analysis.pdf)
 
  
+# Tools: 
+- MiniConda(https://docs.conda.io/en/latest/miniconda.html): 
+- Installing MiniConda and using Juypter: [link](https://www.youtube.com/watch?v=XCvgyvBFjyM)
