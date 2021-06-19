@@ -12,5 +12,5 @@
 
  
 # Tools: 
-- MiniConda(https://docs.conda.io/en/latest/miniconda.html): 
+- MiniConda: [link](https://docs.conda.io/en/latest/miniconda.html): 
 - Installing MiniConda and using Juypter: [link](https://www.youtube.com/watch?v=XCvgyvBFjyM)
