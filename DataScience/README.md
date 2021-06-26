@@ -9,6 +9,7 @@
 
 # Data Analysis: 
 - Python for Data Analysis TextBook [link](https://bedford-computing.co.uk/learning/wp-content/uploads/2015/10/Python-for-Data-Analysis.pdf)
+- Harvard's CS109 DataScience Course [link](https://github.com/cs109/2014)
 
  
 # Tools: 
