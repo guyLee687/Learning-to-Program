@@ -20,6 +20,8 @@ Docker-like Tutorial: [link](https://javascript.info/)
 
 Getify's *You-Dont-Know-JS* [link](https://github.com/getify/You-Dont-Know-JSS)
 
+Eloquent Javascript: [link](https://eloquentjavascript.net/)
+
 ### Databases: 
 
 #### MongoDB:
